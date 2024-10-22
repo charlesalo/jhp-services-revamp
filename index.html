@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Services | Pleasanton Real Estate | Julie Hansen Partnership</title>
+  <meta name="description" content="Check out our comprehensive marketing plan online and learn more about the services we offer here. Call or email the team to schedule an appointment!">
+  <meta name="keywords" content="real estate, home buying, home selling, marketing plan, luxury homes, virtual tour, intentional layout, hansen partnership" >
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/img/favicon-48x48.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header id="header" class="header d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="https://hansenpartners.net" class="logo d-flex align-items-center">
+        <img src="assets/img/jhsereno-light.png" alt="">
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li class="navigation__item">
+            <a  href="https://hansenpartners.net/team" class="navigation__link wow fadeInUp" data-wow-delay="2.0"><span>MEET THE TEAM</span></a>
+          </li>
+          <li class="navigation__item">
+            <a  href="https://hansenpartners.net/home-search/listings" class="navigation__link wow fadeInUp" data-wow-delay="2.1"><span>SEARCH FOR HOMES</span></a>
+          </li>
+          <li class="navigation__item">
+            <a  href="https://hansenpartners.net/neighborhoods" class="navigation__link wow fadeInUp" data-wow-delay="2.2"><span>OUR COMMUNITIES</span></a>
+          </li>
+          <li class="navigation__item">
+            <a  href="https://hansenpartners.net/home-valuation" class="navigation__link wow fadeInUp" data-wow-delay="2.3"><span>HOME VALUATION</span></a>
+          </li>
+          <li class="navigation__item">
+            <a  href="https://hansenpartners.net/services" class="navigation__link wow fadeInUp" data-wow-delay="2.4"><span>SERVICES</span></a>
+          </li>
+          <li class="navigation__item">
+            <a  href="https://hansenpartners.net/FeaturedListingHOA" class="navigation__link wow fadeInUp" data-wow-delay="2.5"><span>Homes Across America</span></a>
+          </li>
+          <li class="navigation__item">
+            <a  href="https://hansenpartners.net/testimonials" class="navigation__link wow fadeInUp" data-wow-delay="2.6"><span>TESTIMONIALS</span></a>
+          </li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <!--  Breadcrumbs  -->
+  <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/bg-services.jpeg');">
+    <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+      <h2>Services</h2>
+    </div>
+  </div>
+
+  <!-- Search Bar Section -->
+  <section id="search-bar-section">
+    <div class="container-fluid search-bar">
+      <div class="row">
+        <div class="col-md-8">
+          <input type="text" class="form-control" placeholder="Search by Address or Area">
+        </div>
+        <div class="col-md-4 text-md-end text-center">
+          <button class="btn appointment-button" id="appointmentBtn">Book an Appointment</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Appointment Modal -->
+  <div id="appointment-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Submit A Message</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+        <label for="phone">Phone</label>
+        <input type="text" id="phone" name="phone" placeholder="Your phone number.." required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email.." required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:200px" required></textarea>
+
+        <label>
+          <input type="checkbox" name="consent" required>
+          I agree to the terms and conditions
+        </label>
+
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <main id="main">  
+
+    <!--  Marketing Plan Services Section  -->
+    <section id="alt-services-2" class="alt-services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row justify-content-around gy-4">
+          <div class="col-lg-5 d-flex flex-column justify-content-center">
+            <h3>Comprehensive Marketing Plan</h3>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
+               <img src="assets/img/responsive.png" alt="responsive">
+              <div>
+                <h4><a href="#" class="stretched-link">Responsive</a></h4>
+                <p>I am always available via phone, text, or email.</p>
+              </div>
+            </div>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
+               <img src="assets/img/syndication.png" alt="syndication">
+              <div>
+                <h4><a href="#" class="stretched-link">Syndication</a></h4>
+                <p>I market your property locally, nationally, and internationally</p>
+              </div>
+            </div>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+               <img src="assets/img/virtual.png" alt="virtual tour">
+              <div>
+                <h4><a href="#" class="stretched-link">Virtual Tour</a></h4>
+                <p>Let's make your home stand out with a high quality virtual tour.</p>
+              </div>
+            </div>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+               <img src="assets/img/photo.png" alt="photography">
+              <div>
+                <h4><a href="#" class="stretched-link">Photography</a></h4>
+                <p>Beatiful, high-end photography is a central part of our marketing plan for your property.</p>
+              </div>
+            </div>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+               <img src="assets/img/drone.png" alt="drone cam">
+              <div>
+                <h4><a href="#" class="stretched-link">Drone Photography</a></h4>
+                <p>Capture stunning aerial views of your property with high-resolution drone photography, showcasing the unique layout and landscape to potential buyers from a breathtaking perspective.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 img-bg" style="background-image: url(https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/hqguvxyyi5jciyrzy35v/page-3);" data-aos="zoom-in" data-aos-delay="100"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--  My Staging Expertise Services Section  -->
+    <section id="alt-services" class="alt-services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row justify-content-around gy-4">
+          <div class="col-lg-6 img-bg" style="background-image: url(assets/img/staging_expertise.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
+
+          <div class="col-lg-5 d-flex flex-column justify-content-center">
+            <h3>My Staging Expertise</h3>
+            <p>Maximizing the appeal of your home through thoughtful staging is essential for creating a welcoming and attractive environment for potential buyers.</p>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
+              <img src="assets/img/decor.png" alt="">
+              <div>
+                <h4><a href="#" class="stretched-link">Decor Guidance</a></h4>
+                <p>Our expert team provides personalized decor advice to enhance the beauty and charm of your home.</p>
+              </div>
+            </div>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/unclutter.png" alt="">
+              <div>
+                <h4><a href="#" class="stretched-link">Unclutter and Organize</a></h4>
+                <p>We help declutter and neatly arrange your home to create a spacious, inviting atmosphere.</p>
+              </div>
+            </div>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+              <img src="assets/img/drawer.png" alt="">
+              <div>
+                <h4><a href="#" class="stretched-link">Cabinet and Drawer Organization</a></h4>
+                <p>Impress potential buyers with tidy and organized storage spaces by arranging cabinets and drawers effectively.</p>
+              </div>
+            </div>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+              <img src="assets/img/ambiance.png" alt="">
+              <div>
+                <h4><a href="#" class="stretched-link">Ambiance with Soft Music</a></h4>
+                <p>Create a calming atmosphere by playing soft music to make the home viewing experience more enjoyable.</p>
+              </div>
+            </div>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+              <img src="assets/img/layout.png" alt="">
+              <div>
+                <h4><a href="#" class="stretched-link">Intentional Layout</a></h4>
+                <p>We carefully arrange furniture and decor to highlight your home's best features, ensuring a natural flow and functionality.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--  Buying Selling Processes Section  -->
+    <section id="processes" class="processes section-bg">
+      <div class="container" data-aos="fade-up">
+        <ul class="nav nav-tabs row  g-2 d-flex">
+          <li class="nav-item col-6">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+              <h4>SELL YOUR HOME</h4>
+            </a>
+          </li>
+          <li class="nav-item col-6">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+              <h4>BUY A HOME</h4>
+            </a>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                <h3>The Selling Process</h3>
+                <ul>
+                  <li><i class="bi bi-1-circle"></i> Initial Consultation & Planning</li>
+                  <li><i class="bi bi-2-circle"></i> Devise & Execute Marketing Plan</li>
+                  <li><i class="bi bi-3-circle"></i> Review Offers & Reach Agreement with Buyer</li>
+                  <li><i class="bi bi-4-circle"></i> Complete Transaction Process</li>
+                  <li><i class="bi bi-5-circle"></i> After-Sale Service</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/selling_process.jpeg" alt="selling_process" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>The Buying Process</h3>
+                <ul>
+                  <li><i class="bi bi-1-circle"></i> Initial Consultation & Planning</li>
+                  <li><i class="bi bi-2-circle"></i> Search for a Home & Get Pre-Approved</li>
+                  <li><i class="bi bi-3-circle"></i> Submit an Offer</li>
+                  <li><i class="bi bi-4-circle"></i> Complete Settlement Process</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/buying_process.jpeg" alt="buying_process" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--  Why Section  -->
+    <section id="why" class="why section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="section-header">
+          <h2>Why Julie Hansen Partnership?</h2>
+        </div>
+        <div class="row gy-4 why-list">
+          <div class="col-xl-4 col-md-6">
+            <div class="why-item position-relative h-100">
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/why.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="why-content d-flex flex-column">
+                <h3 class="why-title">Over 33 Years of Real Estate Success</h3>
+                <p>We provide every one of our clients with a level of service they won’t find anywhere else. We give them what they need, often before they know they need it. ​​​​​​​In real estate, almost everything can be negotiated. When you choose Hansen Partners It is experience is 100% nonnegotiable. ​​​​​​​ ​​​​​​​And it’s an experience like no other.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div class="why-item position-relative h-100">
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/why2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="why-content d-flex flex-column">
+                <h3 class="why-title">Creating an Unforgettable Experience for You</h3>
+                <p>We use data from your home’s Comparative Market Analysis and local research to craft a targeted marketing plan that maximizes exposure to qualified buyers. Hansen Partners offers the experience and flexibility needed to successfully market your home in today’s competitive market.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6">
+            <div class="why-item position-relative h-100">
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/why3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="why-content d-flex flex-column">
+                <h3 class="why-title">The Hansen Partners Communications Tablet</h3>
+                <p>We have created this as a wonderful tool so that we can communicate with you daily, provide you with updates on what is happening with your home. We are available at the with a click of your tablet.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--  Services Section  -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>We Market Your Home to The World</h2>
+          <p><strong>Our Online Marketing Strategy</strong></p>
+          <p>The Bay Area remains one of the world's most sought-after regions to live in, and when looking to sell, it is vital that your home be marketed online to audiences locally, nationally, and internationally.</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-mountain-city"></i>
+              </div>
+              <h3>Local Exposure</h3>
+              <p>Through our partnership with Nextdoor, the private online social network now used in over 80% of U.S. neighborhoods and virtually all Bay Area neighborhoods, we make sure your home receives targeted local exposure. When you list your home with Hansen Partners it will automatically appear on Nextdoor in your neighborhood.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-flag-usa"></i>
+              </div>
+              <h3>National Exposure</h3>
+              <p>We secure strategic positioning and enhancement on Realtor.com, Trulia, and Zillow, driving more consumers to your home and increasing exposure. We  will receive every inquiry about your property directly.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-globe"></i>
+              </div>
+              <h3>International Exposure</h3>
+              <p>To expose your luxury listing to millions of potential homebuyers worldwide, we promote on prominent international real estate portals, including: Wall Street Journal, LuxuryPortfolio.com, LuxuryRealEstate.com, LeadingRE.com, UniqueHomes.com, 
+                China.apr.com, Caimeiju, Juwai, Country Life UK</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 offset-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/world_marketing.png" alt="" class="img-fluid">
+          </div>
+
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section id="partners" class="partners section">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+
+        <div class="row position-relative">
+
+          <div class="col-lg-7 partners-img" style="background-image: url(assets/img/partners.jpeg);"></div>
+
+          <div class="col-lg-7">
+            <h2>Global Exposure through International Affiliations</h2>
+            <div class="partners-about">
+              <p>Leading Real Estate Companies of The World® & Luxury Portfolio International</p>
+              <p>JRockcliff is a founding member of Luxury Portfolio International®, the luxury division of Leading Real Estate Companies of the World®. With more than 500 member firms around the world, Our luxury listings are exposed to a vast global audience and reach potential buyers and investors in over 50 countries.</p>
+              <p>Who's Who in Luxury Real Estate</p>
+              <p>Who’s Who in Luxury Real Estate is a global collection of luxury real estate brokers.</p>
+              <p>Our international partnerships extend our presence to over 50 countries, allowing us to showcase luxury listings on top international real estate platforms. These affiliations provide exposure to over 70 million potential buyers and investors worldwide.</p>
+              <p>We also have strategic affiliate offices in China, offering exclusive access to buyers in Hong Kong, Shanghai, and Beijing.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="int-partners" class="int-partners">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 partner aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <div class="partner-img">
+              <img src="assets/img/leading.jpeg" class="img-fluid" alt="">
+            </div>
+            <div class="partner-info text-center">
+              <h4>Leading Real Estate Companies of The World®</h4>
+              <p>Our members are independent real estate firms with an uncommon commitment to service and integrity. Our network spans over 70 countries and includes more than 134,000 real estate professionals that sell more property than any of the large national brands.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 partner aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <div class="partner-img">
+              <img src="assets/img/luxury_portfolio.jpeg" class="img-fluid" alt="">
+            </div>
+            <div class="partner-info text-center">
+              <h4>Luxury Portfolio International</h4>
+              <p>Luxury Portfolio International is the leading network of the world’s premier luxury real estate brokerages and their top agents, offering unparalleled marketing and intelligence services.  It is part of Leading Real Estate Companies of the World.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 partner aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <div class="partner-img">
+              <img src="assets/img/luxury_real_estate.jpeg" class="img-fluid" alt="">
+            </div>
+            <div class="partner-info text-center">
+              <h4>Who's Who in Luxury Real Estate</h4>
+              <p>Who’s Who in Luxury Real Estate is a global network of top-tier real estate professionals, established in 1986. It represents over 125,000 members in 70+ countries, showcasing high-end properties through its platform, LuxuryRealEstate.com, and offering international exposure for luxury listings. It connects buyers and sellers in the elite real estate market, facilitating global transactions of premium properties.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Work With Us -->
+    <section class="work-with-us">
+      <div class="overlay"></div>
+      <div class="content">
+        <h2>Work With Us</h2>
+        <p>With decades of experience in luxurious Tri Valley real estate, our team is here to ensure that your dreams are a reality. Let us guide you through your home buying journey, contact us today!</p>
+        <a href="#" class="btn">Contact Us</a>
+      </div>
+    </section>
+
+    <!-- What's New Section -->
+    <section id="whats-new" class="whats-new">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+
+        <div class="row justify-content-around gy-4">
+          <div class="col-lg-6 img-bg aos-init aos-animate" style="background-image: url(assets/img/aerial-shot.jpeg);" data-aos="zoom-in" data-aos-delay="100"></div>
+
+          <div class="col-lg-5 d-flex flex-column justify-content-center">
+            <h3>What's New: Embracing Cutting-Edge Technology</h3>
+            <p>We are proud to embrace the latest innovations in real estate photography, bringing you high-quality aerial imagery through the use of state-of-the-art drones. These advanced tools allow us to capture stunning, comprehensive views of your property from unique angles that were previously inaccessible. With this new technology, we ensure your home stands out in the market, offering potential buyers a visually captivating experience like never before.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!--  Footer  -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>Julie Hansen Partnership</h3>
+              <p>An elite group of the East Bay’s most talented and visionary real estate professionals believed buyers and sellers deserved more from their real estate company. More service. More resources. More integrity. More global reach. In a word, more of everything people should expect when they buy or sell their homes.</p><br><br>
+              <p>
+                4733 Chabot Drive #100 <br>
+                Pleasanton, CA 94588<br><br>
+                <strong>Phone:</strong> (925) 553-6707<br>
+                <strong>Email:</strong> luxuryhomesinwc@icloud.com<br>
+              </p><br><br>
+              <p>​​​​​​​Julie Hansen-Orvis | CA DRE# 00934447</p>
+              <div class="social-links d-flex mt-3">
+                <a href="https://www.facebook.com/juliehansenpartership" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/julie-hansen-orvis-10b99359/" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 offset-lg-2 col-md-6">
+            <div class="newsletter__info">
+              <h2>Newsletter</h2>
+              <p>Subscribe to our Newsletter for the latest news and updates. Stay tuned!</p>
+              <form action="" method="post" class="newsletter-form">
+                <input type="email" class="form-control mb-3" placeholder="Email Address" required>
+                <div class="form-check mb-3">
+                  <input type="checkbox" class="form-check-input" id="privacyPolicy" required>
+                  <label class="form-check-label" for="privacyPolicy">
+                    By providing Julie Hansen Partnership your contact information, you acknowledge and agree to our 
+                    <a href="https://hansenpartners.net/terms-and-conditions" target="_blank">Privacy Policy</a> and consent to receiving marketing communications, including through automated calls, texts, and emails, some of which may use artificial or prerecorded voices. This consent isn’t necessary for purchasing any products or services and you may opt out at any time. To opt out from texts, you can reply, ‘stop’ at any time. To opt out from emails, you can click on the unsubscribe link in the emails. Message and data rates may apply.
+                  </label>
+                </div>
+                <button type="submit" class="btn">Subscribe</button>
+              </form>
+            </div>
+            <div class="footer-logos d-flex justify-content-between mt-5 col-6">
+              <img src="assets/img/equal-white.jpg" alt="">
+              <img src="assets/img/realtor-logo-white.jpg" alt="">
+              <img src="assets/img/sereno-white-removebg-preview.png" alt="">
+            </div>
+  
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center position-relative">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright 2024 | <a href="https://hansenpartners.net/terms-and-conditions">Privacy Policy</a>
+        </div>
+        <div class="credits">
+          Website Designed & Developed by <a href="https://www.luxurypresence.com/">Luxury Presence</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
